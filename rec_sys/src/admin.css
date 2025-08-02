@@ -86,7 +86,6 @@ body {
   box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
 }
 
-/* Main content - Full Width Grid */
 .dashboard-content {
   width: 100%;
   padding: 2rem;
@@ -95,7 +94,6 @@ body {
   gap: 2rem;
 }
 
-/* Metrics Grid - Full Width Cards */
 .metrics-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -201,7 +199,7 @@ body {
   margin: 0;
 }
 
-/* Training section */
+
 .training-section {
   background: linear-gradient(135deg, #161b22 0%, #21262d 100%);
   border: 1px solid #30363d;
@@ -273,7 +271,7 @@ body {
   height: 1.1rem;
 }
 
-/* Status and output */
+
 .status-display {
   margin-bottom: 1.5rem;
   padding: 1rem;
@@ -315,7 +313,7 @@ body {
   line-height: 1.5;
 }
 
-/* Chart and metrics layout */
+
 .chart-metrics-grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -328,7 +326,7 @@ body {
   }
 }
 
-/* Chart container */
+
 .chart-container {
   background: linear-gradient(135deg, #161b22 0%, #21262d 100%);
   border: 1px solid #30363d;
@@ -368,7 +366,7 @@ body {
   margin: 0;
 }
 
-/* Performance metrics */
+
 .performance-metrics {
   background: linear-gradient(135deg, #161b22 0%, #21262d 100%);
   border: 1px solid #30363d;
@@ -476,7 +474,6 @@ body {
   background: linear-gradient(90deg, #8b5cf6, #a78bfa);
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
   .dashboard-content {
     padding: 1rem;
@@ -504,7 +501,7 @@ body {
   }
 }
 
-/* Hover animations */
+
 .metric-card, .training-section, .chart-container, .performance-metrics {
   transition: all 0.3s ease;
 }
