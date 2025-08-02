@@ -67,7 +67,7 @@ The hybrid approach provides more accurate and diverse recommendations than eith
 
 4. **Start the API server**
    ```bash
-   uvicorn main:app --reload
+   uvicorn Apifile:app --reload
    ```
    Server will be available at `http://localhost:8000`
 
